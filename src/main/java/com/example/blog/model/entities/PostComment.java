@@ -25,7 +25,7 @@ public class PostComment {
     private AuditEntity auditEntity = new AuditEntity();
 
     @ManyToOne
-    @JoinColumn(name = "postId")
+    @JoinColumn(name = "Id")
     private  Post post;
 
 
